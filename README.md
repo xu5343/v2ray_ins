@@ -17,6 +17,16 @@ Vmess+websocket+TLS+Nginx+Website
 ```
 wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
 ```
+### 两个安装方式（不兼容，二选一）
+
+1.Vmess+websocket+TLS+Nginx+Website：
+```
+bash <(curl -L -s https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh) | tee v2ray_ins.log
+```
+2.Vmess + HTTP2 over TLS：
+```
+bash <(curl -L -s https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install_h2.sh) | tee v2ray_ins_h2.log
+```
 
 ### 注意事项
 * 如果你不了解脚本中各项设置的具体含义，除域名外，请使用脚本提供的默认值
