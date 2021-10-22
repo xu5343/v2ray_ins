@@ -12,6 +12,15 @@
 * [V2ray官方说明](https://www.v2ray.com/)，了解 TLS WebSocket 及 V2ray 相关信息
 * 安装好 wget
 
+* v2rayNG WIN最新版本下载：https://github.com/v2ray/v2ray-core/releases/
+* v2rayNG 安卓最新版本下载：https://github.com/2dust/v2rayNG/pulse
+
+### 安装/更新方式（Nginx 前置）支持配置方式
+VLESS + TCP + TLS + Nginx + WebSocket
+```
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/nginx_forward/install.sh" && chmod +x install.sh && bash install.sh
+```
+
 ### 安装/更新方式（h2 和 ws 版本已合并）
 Vmess+websocket+TLS+Nginx+Website
 ```
